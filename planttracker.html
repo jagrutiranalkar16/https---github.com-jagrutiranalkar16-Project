@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-seedling"></i>Sustainability</a>
+    
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="planttracker.html" target="_blank">Plant Care</a></li>
+                    <li><a href="#donate">donate</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+    <section class="Plantcare" id="Plantcare">
+  
+    <h1 class="headingPlant"> <i class="fas fa-quote-left"></i> Plant Care Tracker <i class="fas fa-quote-right"></i> </h1>   
+        <div class="box-container1" >
+            <h1>Plant Care Tracker</h1>
+            <div class="add-plant">
+                <input type="text" id="plantName" placeholder="Plant Name">
+                <input type="date" id="waterDate" placeholder="Next Watering Date">
+                <input type="date" id="fertilizeDate" placeholder="Next Fertilizing Date">
+                <button id="addPlantButton">Add Plant</button>
+            </div>
+            <div id="plantList"></div>
+        </div>
+    </section> 
+    <script src="script.js"></script>
+</body>
+</html>
